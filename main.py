@@ -8,6 +8,8 @@
 # Now to add cool ASCHII art
 
 # Include random words with https://pypi.org/project/Random-Word/ package
+# $ easy_install random-word
+# $ pip install random-word
 # and only inputting one character error
 # Fixed typing the same letter for every guess error
 
@@ -18,7 +20,7 @@ r = RandomWords()
 
 # Return a single random word
 rw = r.get_random_word()
-print(rw)
+# print(rw)
 
 
 print("Welcome to Hangman!")
